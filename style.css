@@ -1,0 +1,272 @@
+/*  
+Theme Name: Terminal Amber
+Theme URI: http://github.com/atbenson/Terminal-Amber/
+Description: This is theme which looks like terminal
+Version: 0.7.6
+Author: Bomphiologia
+Tags: black, fixed-width, two-columns, right-sidebar, dark
+
+*/
+/* Based on Mac Terminal by Kanabis http://code.google.com/p/wp-terminal-theme/ */
+
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'GlassTTYVT220Medium';
+    src: url('/fonts/GlassTTYVT220Medium/glass_tty_vt220-webfont.eot');
+    src: url('/fonts/GlassTTYVT220Medium/glass_tty_vt220-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/GlassTTYVT220Medium/glass_tty_vt220-webfont.woff') format('woff'),
+         url('/fonts/GlassTTYVT220Medium/glass_tty_vt220-webfont.ttf') format('truetype'),
+         url('/fonts/GlassTTYVT220Medium/glass_tty_vt220-webfont.svg#GlassTTYVT220Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+margin: 0;
+font-size:12pt;
+font-family: "GlassTTYVT220Medium", courier,system,monospace; 
+line-height:1.45em;
+text-align: left;
+vertical-align: top;
+background-color: #000000;
+color: #b98000;
+}
+
+#obal {
+margin: 0 auto 0 auto;
+width: 770px;
+text-align: left;
+background-color: #000000;
+min-height: 100%;
+height: 100%;
+color:#b98000;
+}
+
+#header {
+float: left;
+width: 752px;
+border-bottom: dashed;
+padding: 5px;
+background-color: #000000;
+color:#b98000;
+}
+
+#obsah {
+float: left;
+width: 490px;
+border-right: dashed;
+padding: 0 10px 0 0;
+background-color:#000000;
+color:#b98000;
+height:100%;
+min-height:100%;
+}
+
+.sidebar {
+float: left;
+width: 239px;
+margin: 0 0 0 0;
+padding: 0 10px 0 0;
+background-color:#000000;
+color:#b98000;
+min-height: 100%;
+height: 100%;
+}
+
+.sidebar ul {
+  list-style-type:none; 
+}
+.sidebar ul ul {
+  list-style-type:circle; 
+  padding: 0;
+  margin-left: 0;
+}
+
+#footer {
+clear: both;
+float: left;
+width: 750px;
+border-top: dashed;
+padding: 20px 5px 5px 5px;
+background-color:#000000;
+color:#b98000;
+}
+a {color:#000000;
+text-decoration:none;
+background:#b98000;
+}
+a:visited {color:#000000;
+background:#b98000;
+}
+a:hover {color:#b98000;
+background: #000000;
+}
+
+div.sidebar a {color: #b98000;
+background:#000000;
+	}
+div.sidebar a:visited {color:#b98000;
+}
+div.sidebar a:hover {color:#000000;
+background:#b98000;
+	}
+
+div#header h1 {margin:30px 0 5px 0;
+	}
+div#header a:link {color:#b98000;
+background:#000000;
+}
+div#header a:visited {color:#b98000;
+background:#000000;
+}
+div#header a:hover {color:#000000;
+background:#b98000;
+}
+
+#wp-calendar {
+line-height:1em;
+}
+
+.textwidget {
+line-height:1em;
+}
+
+h2 {
+margin-top:20px;
+line-height:1.5em;
+}
+
+h2.widgettitle {
+margin-bottom:5px;
+}
+
+h2 a {color:#b98000;
+background:#000000;
+	}
+h2 a:visited {color:#b98000;
+background:#000000;
+	}
+h2 a:hover {color:#000000;
+background:#b98000;
+	}
+
+.postmetadata {
+border-bottom:2px dashed #b98000;
+margin-bottom:20px;
+padding-bottom:10px;
+}
+
+#cat {
+color:#b98000;
+background-color:#000000;
+font-family: "GlassTTYVT220Medium", courier,system,monospace; 
+}
+
+#searchsubmit {
+color:#b98000;
+background-color:#000000;
+font-family: "GlassTTYVT220Medium", courier,system,monospace; 
+}
+
+#searchsubmit404 {
+color:#b98000;
+background-color:#000000;
+font-family: "GlassTTYVT220Medium", courier,system,monospace; 
+}
+
+#s {
+color:#b98000;
+background-color:#000000;
+border: 2px solid #b98000;
+}
+
+#s404 {
+color:#b98000;
+background-color:#000000;
+border: 2px solid #b98000;
+}
+
+.aktt_tweets ul li {
+font-size:10pt;
+line-height:1.35em;
+}
+
+.comments-template {
+	margin: 10px 0 0;
+	border-top: 1px solid #b98000;
+	padding: 10px 0 0;
+	}
+
+.comments-template ol {
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+	}
+
+.comments-template ol li {
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+	}
+
+.comments-template h2, .comments-template h3 {
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+	}
+
+.commentmetadata {
+	font-size: 12px;
+	}
+
+.comments-template p.nocomments {
+	padding: 0;
+	}
+
+.comments-template textarea {
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+	}
+	
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+	}
+
+.alignleft {
+   float: left;
+	}
+
+.alignright {
+   float: right;
+	}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+	}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+	}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+   }	
